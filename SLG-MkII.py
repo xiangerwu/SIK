@@ -30,14 +30,14 @@ def ConsoleScreen():
         {
             0:lambda: Input.insert(0,"時間快到了"),
             1:lambda: Input.insert(0,"幫我撐十秒"),
-            2:lambda: Input.insert(0,"白坂小梅P"),
-            3:lambda: Input.insert(0,"我是蘿莉控"),
+            2:lambda: Input.insert(0,"抽獎時間"),
+            3:lambda: Input.insert(0,"公佈投票結果"),
             4:lambda: Input.insert(0,"我的王之力啊啊"),
             5:lambda: Input.insert(0,"你渴望力量嗎?"),
             6:lambda: Input.insert(0,"やらないか"),
-            7:lambda: Input.insert(0,"可以，這很怠惰"),
+            7:lambda: Input.insert(0,"すっごーい！"),
             8:lambda: Input.insert(0,".........."),
-            9:lambda: Input.insert(0,"すっごーい！"),
+            9:lambda: Input.insert(0,"The!World!!"),
             10:lambda: Input.insert(0,"たーのしー！"),
             11:lambda: Input.insert(0,"夏亞，你算計我！"),
             
