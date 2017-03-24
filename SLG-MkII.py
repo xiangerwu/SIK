@@ -29,7 +29,7 @@ def ConsoleScreen():
             #擴充方式 i:lambda:Input.insert(0,""),
         {
             0:lambda: Input.insert(0,"時間快到了"),
-            1:lambda: Input.insert(0,"幫我撐十秒"),
+            1:lambda: Input.insert(0,"安靜一下"),
             2:lambda: Input.insert(0,"抽獎時間"),
             3:lambda: Input.insert(0,"公佈投票結果"),
             4:lambda: Input.insert(0,"我的王之力啊啊"),
@@ -68,7 +68,7 @@ def ConsoleScreen():
     #輸入方塊與<ENTER>鍵和函式:<PrintLine()>連結
     Input.bind('<Return>', (lambda event: PrintLine()))
     #預設關鍵詞:擴充式
-    Show=Label(SLG,text="f1:時間快到了，f2:幫我撐十秒，f3:，f4:，f5:，f6:，f7:，f8:，f9:，f10:，f11:，f12:",fg="blue").grid(row=1,columnspan=3,sticky=N,padx=20)
+    Show=Label(SLG,text="F1:時間快到了，F2:安靜一下，F3:抽獎時間，F4:公佈投票結果，F5:"+'\n'+"F6:，F7:，F8:，F9:，F10:，F11:，F12:",fg="blue").grid(row=1,columnspan=3,sticky=N,padx=20)
     SLG.bind('<F1>',(lambda event: SaySomething(0)))
     SLG.bind('<F2>',(lambda event: SaySomething(1)))
     SLG.bind('<F3>',(lambda event: SaySomething(2)))
