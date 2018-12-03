@@ -53,8 +53,6 @@ def ConsoleScreen():
     SLG.title("主控台")
     #視窗大小
     SLG.geometry('550x135')
-    #Icon
-    SLG.iconbitmap(r'komica.ico')
     #提示文字:請輸入要顯示的文字
     Label(SLG,text="請輸入要顯示的文字:",font=48,width="20", height="3", fg="blue").grid(row=0)
     #生成輸入方塊
@@ -62,6 +60,7 @@ def ConsoleScreen():
     #輸入方塊顯示位置
     Input.grid(row=0, column=1,padx=10,sticky=W)
     #顯示畫面的訊息:font(字體,字型大小)
+    
     Output = Label(SIK,text="預設顯示",font=("Noto Sans Mono CJK TC Bold",150),fg="white",bg="black")
     #顯示畫面的訊息位置
     Output.grid(row=1,sticky=N,padx=20)
